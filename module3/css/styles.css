@@ -1,0 +1,73 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: gray;
+    border-radius: 0;
+    border: black 1px solid;
+  }
+    
+  .navbar-brand h1 { 
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: black;
+    font-size: 1.3em;
+    text-align: center;
+    background-color: white;
+    border: #000 solid 1px;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+  
+  .jumbotron {
+    background-color: grey;
+  }
+
+  #ourmenu {
+    color: #000;
+    font-size: 1.9em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  #menutitle {
+    color: #000;
+    margin-bottom: 15px;
+    font-size: 1.6em;
+    text-align: center;
+  }
+
+  
