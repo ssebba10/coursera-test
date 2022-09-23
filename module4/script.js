@@ -6,7 +6,7 @@
 (function(window){
 
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-    for (var a=0; a<=names.length; a++) {
+    for (var a=0; a<=names.length-1; a++) {
         
     var firstLetter = String(names[a]).charAt(0).toLowerCase(); 
       if (firstLetter==='j') {
